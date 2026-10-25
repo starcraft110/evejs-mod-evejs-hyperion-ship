@@ -1,0 +1,48 @@
+{
+  "author": {
+    "id": "au-mvkiyzeb2g2m",
+    "keyId": "4292e18e8886",
+    "name": "ishのbattle"
+  },
+  "category": "舰船",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "休伯利安号（巨兽级）战巡舰（typeID 340014，蓝图 340015）：全船数据自带、不依赖任何其它舰船，高/中/低槽各 8 格、改装件 3 槽。同捆末日武器「大和聚焦阵列」（typeID 340016）：仅可装配于巨兽级。服务端重启即完成注入，客户端补丁在登录或服务端启动时自动安装。GM 获取：/create 340014 1（舰体）、/create 340016 1（末日武器）。",
+  "displayName": "休伯利安号（巨兽级战巡舰）",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship/releases/download/v1.0.0/evejs-hyperion-ship-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261018.x"
+  ],
+  "featured": false,
+  "highlights": [
+    "**巨兽级战巡舰**：星际争霸2人族战巡，高/中/低槽各 8 格、改装件 3 槽，势力=伊甸联合防御阵线（500027），市场分类=特别版舰船→战列巡洋舰",
+    "**末日武器「大和聚焦阵列」**：仅可装配于巨兽级；",
+    "**服务端注入**：只改运行内存，不修改 server/ 下任何文件（typeDogma / itemTypes / shipTypes / industryBlueprints + 超武档案表）",
+    "**客户端补丁自动安装**：登录探针 + 服务端启动 5 秒探测；补丁内容为 types/typedogma/requiredskillsfortypes/typematerials/dogmaattributes 等静态表追加本 mod 的类型行 + 中英本地化"
+  ],
+  "history": [],
+  "id": "evejs-hyperion-ship",
+  "publishedAt": "2026-10-25",
+  "readme": [
+    "全船数据自带、不依赖任何其它舰船，服务端重启即完成注入，客户端补丁在登录或服务端启动时自动安装。GM 获取：/create 340014 1（舰体）、/create 340016 1（末日武器）。\n「巨兽级 / Behemoth」（typeID **340014**，蓝图 340015）+ 末日武器「大和聚焦阵列 / Yamato Focus Array」（typeID **340016**）。"
+  ],
+  "repo": "https://github.com/starcraft110/evejs-mod-evejs-hyperion-ship",
+  "requiresRestart": true,
+  "sha256": "0cdff1c1585fe7c5d7979471637650706c2271ec527551850c3cbdc95a56239d",
+  "sizeBytes": 104030045,
+  "tags": [
+    "舰船",
+    "战列巡洋舰",
+    "独立船体",
+    "休伯利安号",
+    "星际争霸"
+  ],
+  "version": "1.0.0"
+}
